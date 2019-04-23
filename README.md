@@ -9,7 +9,8 @@ Currently the commands include:
 - Isolate
 - Unisolate
 - Unisolate All
-- Find in Browser (but it refuses to be added to the panel, can't tell why)
+- Find in Browser (the add-in must be re-run after startup to list this,
+  not sure why)
 
 If you want me to add another, please file an issue on this repository or make
 a pull request to add it.

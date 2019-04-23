@@ -8,13 +8,13 @@ def run(context):
     try:
         app = adsk.core.Application.get()
         ui  = app.userInterface
-        
+
         ws = ui.workspaces.itemById('FusionSolidEnvironment')
         panels = ws.toolbarPanels
         myPanel = panels.itemById('ShortcutItPanel')
         if myPanel:
             myPanel.deleteMe()
-        
+
         myPanel = panels.add('ShortcutItPanel', 'Shortcut It', '')
         needCmdDefs = (
             ('IsolateCmd', './isolate'),
@@ -27,7 +27,10 @@ def run(context):
             if not cmd:
                 ui.messageBox('Cannot find {}'.format(cmdName))
                 continue
-            cmd.resourceFolder = resDir
+            if resDir is not None:
+                cmd.resourceFolder = resDir
+            cmd.controlDefinition.isVisible = True
+            cmd.controlDefinition.isEnabled = True
             myPanel.controls.addCommand(cmd)
 
     except:
