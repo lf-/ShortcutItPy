@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"6afb2960-7009-4112-9764-8ec2233fa6b3",
+	"author":	"lf",
+	"description":	{
+		"":	"Add a bunch of commands to a toolbar panel in Tools so they can be shortcut"
+	},
+	"version":	"0.1",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
