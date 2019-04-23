@@ -12,4 +12,7 @@ Currently the commands include:
 If you want me to add another, please file an issue on this repository or make
 a pull request to add it.
 
-The iconography used is Adwaita from the GNOME project.
+The iconography used is Adwaita from the GNOME project. It is licensed under
+either LGPLv3 or CC-BY-SA, and so are my modifications.
+
+The code in this project is licensed under the MIT license.
