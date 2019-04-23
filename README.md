@@ -3,6 +3,8 @@
 This small add-in for Fusion 360 adds icons to some commands and puts them in
 a panel so you can add shortcuts for them.
 
+![demo image](demo.png)
+
 Currently the commands include:
 - Isolate
 - Unisolate
