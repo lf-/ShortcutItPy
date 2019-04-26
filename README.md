@@ -12,6 +12,9 @@ Currently the commands include:
 - Find in Browser (the add-in must be re-run after startup to list this,
   not sure why. The shortcut stays across startups though so it's not a
   problem)
+- Remove
+- Activate Component
+- Set Orbit Center
 
 If you want me to add another, please file an issue on this repository or make
 a pull request to add it.
