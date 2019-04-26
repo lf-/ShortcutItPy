@@ -21,6 +21,8 @@ def run(context):
             ('UnisolateCmd', './unisolate'),
             ('UnisolateAllCmd', './unisolate'),
             ('FindInBrowser', './findinbrowser'),
+            ('SetOrbitCenterCommand', './findinbrowser'),
+            ('FusionActivateCommand', './findinbrowser'),
         )
         for cmdName, resDir in needCmdDefs:
             cmd = ui.commandDefinitions.itemById(cmdName)
