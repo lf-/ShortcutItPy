@@ -23,6 +23,7 @@ def run(context):
             ('FindInBrowser', './findinbrowser'),
             ('SetOrbitCenterCommand', './findinbrowser'),
             ('FusionActivateCommand', './findinbrowser'),
+            ('SoftDeleteCommand', None),
         )
         for cmdName, resDir in needCmdDefs:
             cmd = ui.commandDefinitions.itemById(cmdName)
