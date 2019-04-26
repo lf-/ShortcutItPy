@@ -21,7 +21,7 @@ def run(context):
             ('UnisolateCmd', './unisolate'),
             ('UnisolateAllCmd', './unisolate'),
             ('FindInBrowser', './findinbrowser'),
-            ('SetOrbitCenterCommand', './findinbrowser'),
+            ('SetOrbitCenterCommand', None),
             ('FusionActivateCommand', './findinbrowser'),
             ('SoftDeleteCommand', None),
         )
