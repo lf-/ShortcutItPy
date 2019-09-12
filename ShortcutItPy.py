@@ -22,7 +22,7 @@ def run(context):
             ('UnisolateAllCmd', './unisolate'),
             ('FindInBrowser', './findinbrowser'),
             ('SetOrbitCenterCommand', None),
-            ('FusionActivateCommand', './findinbrowser'),
+            ('ResetOrbitCenterCommand', None),
             ('SoftDeleteCommand', None),
         )
         for cmdName, resDir in needCmdDefs:
