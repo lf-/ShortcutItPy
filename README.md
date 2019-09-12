@@ -12,9 +12,12 @@ Currently the commands include:
 - Find in Browser (the add-in must be re-run after startup to list this,
   not sure why. The shortcut stays across startups though so it's not a
   problem)
+- Find in Window (NOTE: both Find in Window and Find in Browser seem to only
+  appear once a context menu containing them has been opened)
 - Remove
 - Activate Component
 - Set Orbit Center
+- Reset Orbit Center
 
 If you want me to add another, please file an issue on this repository or make
 a pull request to add it.
