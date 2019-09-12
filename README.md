@@ -3,6 +3,8 @@
 This small add-in for Fusion 360 adds icons to some commands and puts them in
 a panel so you can add shortcuts for them.
 
+How to install it: https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-install-an-ADD-IN-and-Script-in-Fusion-360.html
+
 ![demo image](demo.png)
 
 Currently the commands include:
