@@ -1,5 +1,13 @@
 # ShortcutItPy
 
+# /!\ This add-in is not actively maintained because I don't use Fusion /!\
+
+It probably still works simply because it's not doing anything complicated. I can't
+really help with anything except what I remember because I can't run Fusion on my
+computer.
+
+--------------
+
 This small add-in for Fusion 360 adds icons to some commands and puts them in
 a panel so you can add shortcuts for them.
 
